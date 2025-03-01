@@ -50,7 +50,7 @@ export default function Home() {
         {error && <p className="error-message">{error}</p>}
 
         {loading ? (
-          <p>Loading data…</p>
+          <p>Loading data...</p>
         ) : (
           data && (
             <div className="weather-cards">
